@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>La Capsula de Ben</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="./scss/homepageStyles.css">
+</head>
+<body>
+   <button onclick="topFunction()" id="myBtn" title="Go to top" width="35px" height="35px" align="right">⇑</button>
+	
+		<nav class="navbar navbar-toggleable-md navbar-light bg-faded" id="nav-main">
+	  		<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	    		<span class="navbar-toggler-icon"></span>
+	  		</button>
+	  		<a class="navbar-brand" href="#" style="padding-left: 12vw; font-size: 30px;">La Capsula de Ben</a>
+	  		<div class="collapse navbar-collapse" id="navbarNav" style="padding-left: 33vw;" >
+	    		<ul class="navbar-nav nav-ul">
+	      			<li class="nav-item" >
+	        			<a class="nav-link" href="index.html">Inicio<span class="sr-only">(current)</span></a>
+	      			</li> 
+			      <li class="nav-item">
+			      	  <a class="nav-link" href="formulario.html">Contacto</a>
+			      </li>
+	    		</ul>
+	  		</div>
+		</nav>
+
+        <form action="" class="formulario" onsubmit="return validar();">
+        <h1 class="formulario__titulo">Contáctenos</h1>
+         <input type="text" id="nombre" class="formulario__input" required>
+         <label for=""
+         class="formulario__label">Nombre</label>
+         <input type="email" id="email" class="formulario__input" required> 
+         <label for=""
+         class="formulario__label">Email</label>
+         <input type="text" id="telefono" class="formulario__input" required>
+         <label for=""
+         class="formulario__label">Teléfono</label>
+         <input type="text" id="mensaje" class="formulario__input" required> 
+         <label for=""
+         class="formulario__label">Mensaje</label>
+         <input type="submit" class="formulario__submit">
+    </form>
+
+<br><br><br><br><br><br>
+<hr>
+
+<div id="about" class="container-fluid">	
+
+<div class="row" id="about-row">
+    <div class="col-md-12" align="center">
+    Copyright | Avellaneda
+    </div>
+</div>
+</div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+<script src="form.js"></script>
+</body>
+</html>
